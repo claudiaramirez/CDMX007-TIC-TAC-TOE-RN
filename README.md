@@ -2,9 +2,13 @@
 
 https://youtu.be/D0TSq0G99SU
 
+https://expo.io/@claudiaramirez/example
+
 #### Codigo QR
 
 ![React Native](./example/assets/qr.png) 
+
+
 
 ## Índice
 
