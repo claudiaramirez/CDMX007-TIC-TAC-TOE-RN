@@ -1,6 +1,9 @@
 # Tic tac toe - React Native
 
 https://youtu.be/D0TSq0G99SU
+
+#### Codigo QR
+
 ![React Native](./example/assets/qr.png) 
 
 ## Índice
