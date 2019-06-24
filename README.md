@@ -1,12 +1,11 @@
 # Tic tac toe - React Native
 
-https://youtu.be/D0TSq0G99SU
 
 https://expo.io/@claudiaramirez/example
 
 #### Codigo QR
 
-![React Native](./example/assets/qr.png) 
+![React Native](./example/assets/qr2.png) 
 
 
 
