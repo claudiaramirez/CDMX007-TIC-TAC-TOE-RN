@@ -80,11 +80,11 @@ export default class App extends React.Component {
     //determinar ganador
     var winner = this.getWinner();
     if(winner === 1){
-      Alert.alert("Won beach ball!!");
+      Alert.alert("Beach ball Won!!");
       this.setState({xWins: this.state.xWins + 1})
       this.initializeGame();
     }else if(winner === -1){
-      Alert.alert("Won sandbucket!!");
+      Alert.alert("Sandbucket Won!!");
       this.setState({oWins: this.state.oWins + 1})
       this.initializeGame();
     }
@@ -107,6 +107,8 @@ export default class App extends React.Component {
       default: return <View/>;
     }
   }
+  
+
   render() {
     return (
       <ImageBackground source={require('./assets/beach.jpg')} style={{width: '100%', height: '100%'}}>
@@ -115,7 +117,7 @@ export default class App extends React.Component {
           <Text style={styles.title}>Tic Tac Toe</Text>
         </View>
         <View>
-          <Text>nextPlayer</Text>
+          <Text>Next Player</Text>
         </View>
         <View style={styles.ticTacToe}>
           <View style={{ flexDirection: 'row'}}>
@@ -156,7 +158,7 @@ export default class App extends React.Component {
         </View>
 
       <View style={styles.itemScoore}>
-      <Text style={styles.titleScoore}>Scoore</Text>
+      <Text style={styles.titleScoore}>Score</Text>
         <View style={styles.scoores}>
           <View style={styles.scoores1}>
               <Image  source={require('./assets/beachball.png')} style={styles.imgScoore} />
