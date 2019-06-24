@@ -1,5 +1,6 @@
 # Tic tac toe - React Native
 
+https://youtu.be/bJDF-Q-dABI
 
 https://expo.io/@claudiaramirez/example
 
