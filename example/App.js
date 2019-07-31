@@ -113,11 +113,11 @@ export default class App extends React.Component {
     return (
       <ImageBackground source={require('./assets/beach.jpg')} style={{width: '100%', height: '100%'}}>
       <View style={styles.container}>
-        <View style={styles.header}>
+        {/* <View style={styles.header}>
           <Text style={styles.title}>Tic Tac Toe</Text>
-        </View>
+        </View> */}
         <View>
-          <Text>Next Player</Text>
+          <Text style={styles.title}>Tic Tac Toe</Text>
         </View>
         <View style={styles.ticTacToe}>
           <View style={{ flexDirection: 'row'}}>
@@ -188,19 +188,20 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     justifyContent: 'center',
   },
-  header:{
-    height: 60,
-    position: 'absolute',
-    left: 0,
-    right: 0,
-    top: 0,
-    backgroundColor: '#6bd4cc',
-    zIndex: 10,
-    alignItems:'center',
-    justifyContent:'center',
-  },
+  // header:{
+  //   height: 60,
+  //   position: 'absolute',
+  //   left: 0,
+  //   right: 0,
+  //   top: 0,
+  //   backgroundColor: '#6bd4cc',
+  //   zIndex: 10,
+  //   alignItems:'center',
+  //   justifyContent:'center',
+  // },
   title:{
-    fontSize: 30,
+    fontSize: 25,
+    paddingBottom:20,
     color:'#fff',
   },
   ticTacToe:{ 
